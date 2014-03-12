@@ -24,4 +24,5 @@ describe "fibonacci generator" do
   it "returns 144 for the twelth fibonacci number" do
     @fib.calculate(12).should eq 144
   end
+
 end
