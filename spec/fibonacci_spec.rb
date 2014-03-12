@@ -16,4 +16,12 @@ describe "fibonacci generator" do
   it "returns 2 for the third fibonacci number" do
     @fib.calculate(3).should eq 2
   end
+
+  it "returns 5 for the fith fibonacci number" do
+    @fib.calculate(5).should eq 5
+  end
+
+  it "returns 144 for the twelth fibonacci number" do
+    @fib.calculate(12).should eq 144
+  end
 end
